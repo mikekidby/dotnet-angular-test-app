@@ -6,15 +6,15 @@ Example apps with Angular front end / .NET backend
 
  	dotnet —info
 
-### Restore dotnet (when installing or removing packages):
+### Restore .NET (when installing or removing packages):
 
     donet restore
 
-### Run dotnet app:
+### Run .NET app:
 
     donet run
 
-Run dotnet app in dev:
+Run .NET app in dev:
 
     donet watch run
 
