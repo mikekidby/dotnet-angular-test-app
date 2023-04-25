@@ -1,6 +1,6 @@
-# dotnet-angular-test-app
-Creating an app with angular front end / dotnet backend
-# HANDY DOTNET COMMANDS
+# .NET Angular Test Apps
+Example apps with Angular front end / .NET backend
+# HANDY .NET COMMANDS
 
 ### Get general SDK info:
 
