@@ -4,43 +4,42 @@ Creating an app with angular front end / dotnet backend
 
 ### Get general SDK info:
 
- 	<code>dotnet —info</code>
+ 	dotnet —info
 
 ### Restore dotnet (when installing or removing packages):
 
-    <code>donet restore</code>
+    donet restore
 
 ### Run dotnet app:
 
-    <code>donet run</code>
+    donet run
 
 Run dotnet app in dev:
 
-    <code>donet watch run</code>
+    donet watch run
 
 Find all templates that can be created:
 
-    <code>dotnet new list</code>
+    dotnet new list
 
 Create new template (note -n <name> is not needed and will default to directory name):
 	
-	<code>dotnet new <template> -n <name></code>
+	dotnet new <template> -n <name>
 
 All commands for a specific template:
 	
-	<code>dotnet <template> -h</code>
+	dotnet <template> -h
 
 All projects connected to a template:
 
-	<code>dotnet <template> list</code>
+	dotnet <template> list
 
 Clean SSLs for Localhost
-<code>
-code ~/.aspnet/dev-certs/https
+
+	code ~/.aspnet/dev-certs/https
 (Delete all of the files in this directory)
-sudo dotnet dev-certs https --clean
-dotnet dev-certs https --clean
-dotnet dev-certs https
-dotnet dev-certs https --trust
-dotnet dev-certs https --check --trust
-</code>
+	sudo dotnet dev-certs https --clean
+	dotnet dev-certs https --clean
+	dotnet dev-certs https
+	dotnet dev-certs https --trust
+	dotnet dev-certs https --check --trust
