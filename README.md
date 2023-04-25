@@ -36,10 +36,10 @@ All projects connected to a template:
 
 Clean SSLs for Localhost
 
-	`code ~/.aspnet/dev-certs/https
-(Delete all of the files in this directory)
+	code ~/.aspnet/dev-certs/https
+    // (Delete all of the files in this directory)
 	sudo dotnet dev-certs https --clean
 	dotnet dev-certs https --clean
 	dotnet dev-certs https
 	dotnet dev-certs https --trust
-	dotnet dev-certs https --check --trust`
+	dotnet dev-certs https --check --trust
